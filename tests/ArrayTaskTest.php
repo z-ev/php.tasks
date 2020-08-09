@@ -30,4 +30,13 @@ class ArrayTaskTest extends TestCase
          $this->assertEquals('Привет, мир!', $this->solve->Task1());
      }
 
+    /**
+     * Дан массив с числами. Запишите в новый массив только те числа, в которых есть цифра 5
+     */
+     public function test_array_task_2()
+     {
+         $array = [5,15,25,52,51];
+         $this->assertEquals($array,  $this->solve->Task2());
+     }
+
 }
