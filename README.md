@@ -8,7 +8,7 @@
    $ vendor/bin/phpunit
    ```
 ## Оглавление
-###Массивы
+### Массивы
 ```sh
 vendor/bin/phpunit ./tests/ArrayTaskTest.php 
 ```
